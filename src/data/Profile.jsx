@@ -1,51 +1,73 @@
 export const profile = {
-  name:    'Иван Иванов',
-  title:   'Junior Front-End Developer',
+  name: 'Никифоров Константин',
+  title: 'Junior Front-End Developer',
   contacts: {
-    email:   'ivan.ivanov@example.com',
-    phone:   '+420 123 456 789',
-    github:  'https://github.com/ivan-ivanov',
-    linkedin:'https://linkedin.com/in/ivan-ivanov',
+    email: 'knikiforov017@gmail.com',
+    phone: '+7 (927) 995-95-75',
+    github: 'https://github.com/ezsakura',
+    linkedin: 'https://linkedin.com/in/knikiforov017'
   },
-  summary:
-    `Студент экономического факультета, увлечён фронтенд-разработкой.
-     Практикую Vite, React и Tailwind для создания отзывчивых SPA.
-     Ищу возможность прокачать скиллы в дружной команде.`,
+  summary: `Начинающий Front-End разработчик с практическими навыками работы в React,
+Tailwind CSS и MUI. Создаю адаптивные лендинги, SPA с анимациями, подключаю API через Axios.
+Активно изучаю современные подходы к оптимизации веб-приложений и стремлюсь к профессиональному росту.`,  
   skills: [
-    'JavaScript (ES6+)', 'React', 'Vite', 'Tailwind CSS',
-    'HTML5', 'CSS3', 'Git', 'REST API',
+    'JavaScript (ES6+)',  'React', 'Vite', 'Tailwind CSS 4',
+    'HTML5', 'CSS3', 'Git', 'REST API', 'Axios', 'MUI'
   ],
-  education: [
-    {
-      institution: 'Экономический факультет, МГУ',
-      period:      '2022 – наст. время',
-      degree:      'Бакалавр «Налоги и налогообложение»',
-    },
+  softSkills: [
+    'Коммуникация', 'Работа в команде', 'Критическое мышление', 'Самообучение', 'Адаптивность'
+  ],
+  certifications: [
+    'Сертификат "Контент-менеджер" 1C-Bitrix (2022)',
+    'Курс "React Basics" (2023)',
+    'Сертификат "JavaScript Algorithms and Data Structures" (2024)'
+  ],
+  languages: [
+    'Русский (родной)', 'Английский (B1)'
+  ],
+  achievements: [
+    'Участник хакатона CodeFest (2023)',
+    'Волонтёр-разработчик для Non-Profit проекта EcoWeb'
+  ],
+  hobbies: [
+    'Путешествия', 'Шахматы', 'Фотография', 'Йога'
   ],
   experience: [
     {
-      company: 'Интернатура в Веб-студии XYZ',
-      period:  'Май 2024 – Авг 2024',
-      role:    'Frontend Intern',
+      company: 'HI-Tech Studio',
+      period: 'Autumn 2022 – Summer 2023',
+      role: 'Content Manager (1C-Bitrix)',
       details: [
-        'Разработал SPA для внутренней CRM-системы',
-        'Оптимизировал загрузку ассетов: снизил bundle на 30%',
-        'Писал юнит-тесты с Jest и React Testing Library',
+        'Публикация и оптимизация контента в CMS 1C-Bitrix',
+        'Создание и настройка модулей новостей и каталогов',
+        'Внедрение системы SEO-оптимизации для посадочных страниц'
+      ],
+    },
+    {
+      company: 'ООО «STULER»',
+      period: 'Summer 2023 – Autumn 2024',
+      role: 'Front-End Developer',
+      details: [
+        'Участие в разработке внутренней CRM на Django + HTML + CSS',
+        'Инициировал перенос интерфейса на React с MUI для улучшения UX',
+        'Системное администрирование без дополнительной оплаты'
       ],
     },
   ],
+  education: [
+    {
+      institution: 'МЦК-ЧЭМК, Чебоксары',
+      period: '2018 – 2022',
+      degree: 'Разработчик веб и мультимедийных приложений, диплом 4+'
+    }
+  ],
   projects: [
     {
-      name: 'Pokedex SPA',
-      link: 'https://github.com/ivan-ivanov/pokedex',
-      description:
-        'Интерактивное приложение на React + Tailwind: список покемонов с пагинацией и детальной страницей каждого существа.',
-    },
-    {
-      name: 'Todo List App',
-      link: 'https://github.com/ivan-ivanov/todo-vite',
-      description:
-        'Минималистичный TODO-лист с drag’n’drop, локальным хранилищем и светлыми/тёмными темами.',
-    },
+      name: 'Портфолио-сайт',
+      name_code: 'Исходный код',
+      link: 'https://ezsakura.github.io/portfolio/',
+      link_code: 'https://github.com/ezsakura/portfolio',
+      description: 'Личный сайт-портфолио на React + Tailwind CSS с динамическими анимациями, адаптивная вёрстка и light/dark режим.'
+    }
   ],
 }
